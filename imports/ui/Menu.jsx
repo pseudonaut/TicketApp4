@@ -9,11 +9,17 @@ export default class NavigationBar extends Component {
         if (name=='Home') {
             FlowRouter.go('/')
         }
-        else if (name=='Tickets') {
+        else if (name=='Tickets and Events') {
             FlowRouter.go('/tickets')
         }
         else if (name=='Roadmap') {
             FlowRouter.go('/roadmap')
+        }
+        else if (name=='Login') {
+            FlowRouter.go('/login')
+        }
+        else if (name=='Contracts') {
+            FlowRouter.go('/contracts')
         }
     }
 
@@ -22,15 +28,19 @@ export default class NavigationBar extends Component {
 
         return (
             <div>
-                <Menu pointing secondary size='massive' color='red'>
-                    <Menu.Item header>Sun Devil Ticket Booth</Menu.Item>
-                    <Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick} />
-                    <Menu.Item name='Tickets' active={activeItem === 'Tickets'} onClick={this.handleItemClick} />
-                    <Menu.Item name='Roadmap' active={activeItem === 'Roadmap'} onClick={this.handleItemClick} />
-                    <Menu.Menu position='right'>
-                        <Menu.Item name='login' active={activeItem === 'login'} onClick={this.handleItemClick} />
-                    </Menu.Menu>
-                </Menu>
+                <Segment inverted>
+                    <Menu inverted pointing secondary size='massive'>
+                        <Menu.Item header color='yellow'>Sun Devil Tickets</Menu.Item>
+                        <Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick} />
+                        <Menu.Item name='Tickets and Events' active={activeItem === 'Tickets and Events'} onClick={this.handleItemClick} />
+                        <Menu.Item name='Roadmap' active={activeItem === 'Roadmap'} onClick={this.handleItemClick} />
+                        <Menu.Item name='Contracts' active={activeItem === 'Contracts'} onClick={this.handleItemClick} />
+                        <Menu.Menu position='right'>
+                            <Menu.Item name='Login' active={activeItem === 'Login'} onClick={this.handleItemClick} />
+                            <Menu.Item name='Register' active={activeItem === 'Register'} onClick={this.handleItemClick} />
+                        </Menu.Menu>
+                    </Menu>
+                </Segment>
             </div>
         )
     }

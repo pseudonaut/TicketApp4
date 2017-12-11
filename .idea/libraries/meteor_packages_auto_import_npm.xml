@@ -5656,6 +5656,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/websocket-driver/lib/websocket/http_parser.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/websocket-driver/lib/websocket/driver.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/http-parser-js/http-parser.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ethereum_web3/0.20.2/npm/node_modules/xmlhttprequest/lib/XMLHttpRequest.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/faye-websocket/lib/faye/websocket/client.js" />
@@ -12012,6 +12013,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/websocket-driver/lib/websocket/http_parser.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/websocket-driver/lib/websocket/driver.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/http-parser-js/http-parser.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ethereum_web3/0.20.2/npm/node_modules/xmlhttprequest/lib/XMLHttpRequest.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ddp-client/2.2.0/npm/node_modules/faye-websocket/lib/faye/websocket/client.js" />
